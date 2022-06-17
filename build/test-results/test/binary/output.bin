@@ -1,0 +1,10 @@
+
+Testing addItem()...
+A  PASS: Adding '' to ShoppingCart was rejected, as was expected.
+#The addItem() method tests passed!
+
+Testing updateQuantity()...
+X  PASS: After setting quantity to 0, ShoppingCart no longer contains item "Instant Pot"
+*The updateQuantity() method tests passed!
+
+All tests passed!

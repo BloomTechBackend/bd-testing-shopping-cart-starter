@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.amazon.ata.shoppingcart.ShoppingCartTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-06-09T16:47:05" hostname="Jamies-MacBook-Pro.local" time="0.019">
+  <properties/>
+  <testcase name="runAllTests()" classname="com.amazon.ata.shoppingcart.ShoppingCartTest" time="0.019"/>
+  <system-out><![CDATA[
+Testing addItem()...
+  PASS: Adding '' to ShoppingCart was rejected, as was expected.
+The addItem() method tests passed!
+
+Testing updateQuantity()...
+  PASS: After setting quantity to 0, ShoppingCart no longer contains item "Instant Pot"
+The updateQuantity() method tests passed!
+
+All tests passed!
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
