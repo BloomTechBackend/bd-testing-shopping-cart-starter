@@ -71,6 +71,7 @@ public class ShoppingCart {
             return false;
         }
 
+        // If the item is NOT in the cart Map
         if (!items.containsKey(itemName)) {
             return false;
         }

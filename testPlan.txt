@@ -1,0 +1,23 @@
+Test Plan for Shopping Cart Class
+
+addItem() method
+
+1. Happy Path - Expected processing
+
+    click to add an item and it's successfully placed in  the cart
+
+2. Exception processing - Unexpected input or events during processing
+
+    click to add an item and it doesn't add
+    one click adds multiple entries in the cart
+    a negative quantity is entered
+    specify a quantity that exceeds inventory
+    item name is missing
+
+
+updateQuantity() method
+
+1. Happy Path - Expected processing
+
+
+2. Exception processing - Unexpected input or events during processing
