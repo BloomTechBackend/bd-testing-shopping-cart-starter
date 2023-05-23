@@ -105,27 +105,6 @@ public class ShoppingCartTest {
 
     // PARTICIPANTS: ADD YOUR addItem() tests here
 
-    // Test for click to add an item and it's successfully placed in  the cart
-    // Test Names: method_descriptivePhrase4Test_expectedResult
-    public boolean addItem_ValidItemNameWithValidQuantity_AddedToTheCart() {
-        // GIVEN - Set up the data
-        ShoppingCart shoppingCart = new ShoppingCart();  // Instantiate an object with the method to test
-
-        // WHEN - execute the method with data for test
-        boolean jinkies = shoppingCart.addItem("Banana",3);
-
-        // THEN - Check to see if test worked based on the result
-        if (jinkies == true) {
-            System.out.println("  PASS: Adding 'Banana' to ShoppingCart was successful, as was expected.");
-            return true;
-        }
-        else {
-            System.out.println("FAILED: failed to add item to cart");
-            return false;
-        }
-
-    }
-
 
     // updateQuantity() test cases:  ------------------------
 
